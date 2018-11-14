@@ -421,15 +421,17 @@ fieldset {
   padding-left: 0.125rem;
   z-index: 1;
   color: #b3b3b3;
-  font-size: 1rem;
+    font-size: 15px;
   font-weight: normal;
   -webkit-transition: all 0.28s ease;
   transition: all 0.28s ease;
+      margin-left: 2%;
+
 }
 .form-group .bar {
-  position: relative;
-  border-bottom: 0.0625rem solid #999;
-  display: block;
+    position: relative;
+    border-bottom: 0.0625rem solid #b3b3b9;
+    display: block;
 }
 .form-group .bar::before {
   content: '';
@@ -438,7 +440,7 @@ fieldset {
   left: 50%;
   bottom: -0.0625rem;
   position: absolute;
-  background: #337ab7;
+  background:  rgb(253, 173, 2);
   -webkit-transition: left 0.28s ease, width 0.28s ease;
   transition: left 0.28s ease, width 0.28s ease;
   z-index: 2;
@@ -497,7 +499,7 @@ fieldset {
 .form-group select:focus ~ .control-label,
 .form-group input:focus ~ .control-label,
 .form-group textarea:focus ~ .control-label {
-  color: #337ab7;
+  color:  rgb(253, 173, 2);
 }
 .form-group select:focus ~ .bar::before,
 .form-group input:focus ~ .bar::before,
@@ -572,4 +574,52 @@ Remove or comment-out the code block below to see how the browser will fall-back
 }
 .galleryDiv {
   margin: 4%;
+}
+
+.formDiv{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    height: 450px;
+    padding-top:1%;   
+}
+.formIconDiv {
+    padding: 2%;
+    background: rgb(253, 173, 2);
+    text-align: center;
+    margin-top: 6%;
+margin-bottom:2%;
+}
+.formHeader{
+      text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+.button {
+    padding: 2%;
+    width: 20%;
+    border-radius: 28px;
+    border: 1px solid rgb(253, 173, 2);
+    text-align: center;
+    font-size: 1rem;
+    background: transparent;
+    padding-top: 2%;
+    margin-left: 40%;
+    cursor:pointer;
+    transition:1s;
+    color:rgb(77, 71, 71);
+}
+.button:hover{
+  background:rgb(253, 173, 2);
+  padding:1%;
+  width:10%;
+  margin-left:45%;
+  color:white;
+
+}
+.formSpan{
+      text-align: center;
+    margin-left: 42%;
+    color:rgb(77, 71, 71);
 }

@@ -1,0 +1,575 @@
+.Navber{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: rgb(253, 173, 2);
+  color: white
+
+}
+a {
+  text-decoration: none;
+  width: 7%;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  /* height: 32px; */
+}
+.NavberItems{
+  padding: 11.2%;
+  border:2px solid white;
+font-weight: 1;
+margin: 1%;
+cursor: pointer;
+border-radius: 3px;
+transition: 1s;
+
+}
+.NavberItems:hover{
+ transform: rotate(360deg);
+ color: rgb(39, 37, 37);
+}
+.BgImg{
+  width: 100%;
+  height: 610px;
+}
+.BgImgText{
+  font-weight: 1;
+  color: rgb(253, 173, 2);
+text-align: center;
+margin-top:5%;
+margin-bottom: -1%;
+
+}
+.AboutDiv{
+  width: 60%;
+  text-align: center;
+  padding: 2%;
+  margin-left: 18.5%;
+
+}
+.AboutText{
+  font-weight: 100;
+  color:rgb(77, 71, 71);
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+.AboutSpan{
+  border-bottom: 3px solid rgb(253, 173, 2);
+ width: 10%;
+ margin-left: 45%;
+ margin-top: 5%;
+ transition: 1s
+}
+
+.AboutSpan:hover{
+  transform: rotate(360deg)
+}
+
+.professionalMainDiv{
+  height: 790px;
+  margin: 5%;
+  padding: 1%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+
+.TraitMainDiv {
+    height: 410px;
+    margin: 5%;
+    padding: 1%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.professionalHeader{
+  color: rgb(253, 173, 2);
+  font-weight: 100;
+
+}
+
+.professional{
+  margin-top:-5%;
+  padding: 5%;
+}
+.Trait{
+  margin-top:-5%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  transition:1s;
+}
+
+
+  .Trait1 {
+    margin-left: 1.1%;
+    margin-top: -11%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.professionalDIv{
+  margin: 3%;
+  border-left: 2px solid rgb(253, 173, 2);
+  display: flex;
+  justify-content: space-between;
+}
+.TraitDiv{
+  margin: 3%;
+  border: 1px solid rgb(253, 173, 2);
+  border-radius: 25px;
+  width: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+  transition:1s;
+  cursor: pointer;
+
+
+}
+.TraitDiv:hover{
+  background: rgb(253, 173, 2);
+  color: white;
+}
+.TraitText{
+  color:rgb(77, 71, 71);
+  font-weight: 100;
+
+}
+.professionalText{
+font-size: 1.3rem;
+font-weight: 100;
+color:rgb(77, 71, 71);
+margin-left: 10px;
+width:30%;
+}
+.professionalP{
+  color: rgb(253, 173, 2);
+  float: right;
+}
+.professionalLine {
+  border-bottom: 1px solid rgb(192, 188, 188);
+  width: 70%;
+  height: 17px;
+  margin-top: 1.6%;
+}
+.professionalSpan1{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 100%;
+  height: 17px;
+
+}
+.professionalSpan2{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 75%;
+  height: 17px;
+}
+.professionalSpan3{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 85%;
+  height: 17px;
+}
+.professionalSpan4{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 80%;
+  height: 17px;
+}
+.professionalSpan5{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 60%;
+  height: 17px;
+}
+.professionalSpan6{
+  border-bottom: 2px solid rgb(253, 173, 2);
+  width: 40%;
+  height: 17px;
+}
+
+
+
+
+.ExperiencesDiv {
+  height: 848px;
+  margin: 5%;
+  padding: 1%;
+  margin-top: -1%;
+}
+.ExperiencesHeader{
+  color: rgb(253, 173, 2);
+  font-weight: 100;
+margin: 3%;
+margin-left: 0.5%;
+
+}
+.ExperiencesP{
+  float: rignt;
+    color: rgb(253, 173, 2);
+    margin-left: 68%;
+    margin-top: 5%;
+}
+
+
+.CardImg{
+  width:100%
+}
+
+
+.card {
+  width: 40%;
+  height: 300px;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+}
+.card1{
+  width: 40%;
+  height: 300px;
+  -webkit-perspective: 500px;
+  perspective: 500px; 
+  margin-top: 5%;
+  margin-left: 32%;
+}
+.Mcard{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.content1 {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+
+  .card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 1s;
+}
+
+.card1:hover .content1 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 1s;
+}
+.front, .back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 30px;
+  color: rgb(253, 173, 2);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  word-break: break-all;
+}
+
+.front1, .back1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 30px;
+  color: rgb(253, 173, 2);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  word-break: break-all;
+}
+.back {
+  background: rgb(253, 173, 2);
+  color: white;
+  padding: 2%;
+  transform: rotateY( 180deg );
+}
+.back1 {
+  background: rgb(253, 173, 2);
+  color: white;
+  padding: 2%;
+  transform: rotateY( 180deg );
+}
+.Worksdiv{
+  width: 20%;
+  display: flex;
+  height: 300px;
+  margin-left: 20%;
+  margin-bottom: 8%;
+  cursor: pointer;
+  transition: 1s;
+}
+.Worksdiv:hover{
+  width: 30%;
+  margin-left: 5%;
+}
+.WorksHeader{
+  font-weight: 100;
+  color: rgb(253, 173, 2);
+  text-align: center
+}
+.footerDiv{
+  background: rgb(253, 173, 2);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footerText{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 20%
+
+
+}
+.IconsDiv{
+  width: 80%;
+  margin-top: 1.5%
+}
+.IconsImg {
+  width: 4%;
+    margin-left: 2.2%;
+  margin-right: 4%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.footerTextA{
+      text-decoration: none;
+    width: 10%;
+    padding: 0%;
+    text-align: center;
+    color: white;
+    /* height: 32px; */
+}
+.IconsImgG {
+  width: 4%;
+    margin-left: 2.2%;
+  margin-right: 4%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.IconsImg:hover{
+  transform: rotate(360deg);
+}
+.IconsImgG:hover{
+  transform: rotate(360deg);
+}
+
+
+
+
+fieldset {
+  margin: 0 0 3rem;
+  padding: 0;
+  border: none;
+}
+
+.form-group {
+  position: relative;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.form-inline > .form-group,
+.form-inline > .btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-help {
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
+  color: #b3b3b3;
+  font-size: 0.8rem;
+}
+
+.form-group input {
+  height: 1.9rem;
+}
+.form-group textarea {
+  resize: none;
+}
+.form-group select {
+  width: 100%;
+  font-size: 1rem;
+  height: 1.6rem;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  background: none;
+  border: none;
+  line-height: 1.6;
+  box-shadow: none;
+}
+.form-group .control-label {
+  position: absolute;
+  top: 0.25rem;
+  pointer-events: none;
+  padding-left: 0.125rem;
+  z-index: 1;
+  color: #b3b3b3;
+  font-size: 1rem;
+  font-weight: normal;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+}
+.form-group .bar {
+  position: relative;
+  border-bottom: 0.0625rem solid #999;
+  display: block;
+}
+.form-group .bar::before {
+  content: '';
+  height: 0.125rem;
+  width: 0;
+  left: 50%;
+  bottom: -0.0625rem;
+  position: absolute;
+  background: #337ab7;
+  -webkit-transition: left 0.28s ease, width 0.28s ease;
+  transition: left 0.28s ease, width 0.28s ease;
+  z-index: 2;
+}
+.form-group input,
+.form-group textarea {
+  display: block;
+  background: none;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  font-size: 1rem;
+  border-width: 0;
+  border-color: transparent;
+  line-height: 1.9;
+  width: 100%;
+  color: transparent;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+  box-shadow: none;
+}
+.form-group input[type="file"] {
+  line-height: 1;
+}
+.form-group input[type="file"] ~ .bar {
+  display: none;
+}
+.form-group select,
+.form-group input:focus,
+.form-group input:valid,
+.form-group input.form-file,
+.form-group input.has-value,
+.form-group textarea:focus,
+.form-group textarea:valid,
+.form-group textarea.form-file,
+.form-group textarea.has-value {
+  color: #333;
+}
+.form-group select ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group input:valid ~ .control-label,
+.form-group input.form-file ~ .control-label,
+.form-group input.has-value ~ .control-label,
+.form-group textarea:focus ~ .control-label,
+.form-group textarea:valid ~ .control-label,
+.form-group textarea.form-file ~ .control-label,
+.form-group textarea.has-value ~ .control-label {
+  font-size: 0.8rem;
+  color: gray;
+  top: -1rem;
+  left: 0;
+}
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+}
+.form-group select:focus ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group textarea:focus ~ .control-label {
+  color: #337ab7;
+}
+.form-group select:focus ~ .bar::before,
+.form-group input:focus ~ .bar::before,
+.form-group textarea:focus ~ .bar::before {
+  width: 100%;
+  left: 0;
+}
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+
+
+
+
+
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+.galleryDiv {
+  margin: 4%;
+}

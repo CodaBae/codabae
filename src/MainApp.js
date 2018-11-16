@@ -13,28 +13,35 @@ class MainApp extends Component {
         </div>
         <h1 className="BgImgText" >Hi I'M Shalom Mathew... FullStack Developer</h1>
         <div className="AboutDiv">
-          <p className="AboutText">jsdnjnjdisdjsjdbcjhjjxajscjcjbajsd
-          jchcjkzauhcujdchuhdncjxjascnsduencuishcnuhdsch
-          sjsdvdcidsisdcucdhvisdivhidvndicid
-          cisdciddvhhsdnkjdkjkdjjsdkdinxkjkdjksd
-          dsddidosdkjsijdmmdijmskdkjdk
-          ivdhsuhifhfusiofhisdiofdfhofvoe
-          svuivijergvjosrvhjfbihokdjijwdecihcehcfciefhcuhiefufcfe
+          <p className="AboutText">
+          I Believe That There is more to Life than anyone can ever TELL....
+Nobody has gone through the Experience iv gone through... Experience's either Build you or Break you....  Its what made me Who I Am "ME"! 
+
+
+<p className="AboutText">Background Bio</p>
+
+
+Am Shalom Mathew, A 20 years old beautiful girl Am From Abia State,  Bende Local Government Area,
+I have two elder brothers and A kid sister.
+
+
+<p>Passion</p>
+Am passionate about Solving Problems, Touching Lives,  Technology,  Innovations, Creativity,  Adventures And Social Entrepreneurship
+
+<p>Me</p>
+Christ Personified, Rep BLW, Leader, Traveler,  Friendly, Kind, TechShaper, loveable,  ALifeGiver, Cheerful, Founder of iRecycle. TripleC,
+
+<p>Colors</p>
+Favorite colors are.... Light yellow, lemon Green, White and  all shed of Ash to Black,
+
+<p>Food</p>
+Chicken.... Pastries... Ice-Cream.... Popcorn.... Indomie with suya....
+
+<p>Dislikes</p> 
+LIES... Its better u tell and let the roof fall... Than to lie to my face...
         </p>
 
-          <p className="AboutText">jsdnjnjdisdjsjdbcjhjjxajscjcjbajsd
-            jchcjkzauhcujdchuhdncjxjascnsduencuishcnuhdsch
-            sjsdvdcidsisdcucdhvisdivhidvndicid
-            cisdciddvhhsdnkjdkjkdjjsdkdinxkjkdjksd
-            dsddidosdkjsijdmmdijmskdkjdk
-            ivdhsuhifhfusiofhisdiofdfhofvoe
-            svuivijergvjosrvhjfbihokdjijwdecihcehcfciefhcuhiefufcfe
-        </p>
-
-
-
-
-
+       
           <div className="AboutSpan"> </div>
         </div>
 

@@ -12,8 +12,11 @@ class MainApp extends Component {
 
         </div>
 
-        <div>
-          <h1 className="BgImgT" >CODABAE</h1>
+        <div className='BgTextDiv'>
+          <span className="BgImgS1" >CO</span>
+          <span className="BgImgS2" >DA</span>
+          <span className="BgImgS3" >BA</span>
+          <span className="BgImgS4" >E.</span>
 
         </div>
 

@@ -656,3 +656,33 @@ margin-bottom:2%;
     margin-left: 42%;
     color:rgb(77, 71, 71);
 }
+.BgTextDiv{
+  margin-top: -28%;
+text-align: center;
+margin-bottom: 28%;
+}
+
+.BgImgS1{
+  color:white;
+font-size: 2rem;
+}
+.BgImgS2{
+  color:rgb(240, 157, 3);
+
+  font-size: 2rem;
+
+}
+.BgImgS3{
+  color:  rgb(240, 157, 3);
+  ;
+  font-size: 1.5rem;
+
+
+}
+.BgImgS4{
+  color:white;
+  font-size: 1.5rem;
+
+
+}
+

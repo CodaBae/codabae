@@ -53,9 +53,9 @@ class Connect extends Component {
  
  
    
-   
+     <span className="formSpanF">Call Me</span>
 
-  <span className="formSpan">+2348093546694</span>
+  <span className="formSpanB">+2348093546694</span>
 
 
 </div>

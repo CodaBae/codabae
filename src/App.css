@@ -4,8 +4,12 @@
   width: 100%;
   justify-content: space-evenly;
   background-color: rgb(253, 173, 2);
-  color: white
+  color: white;
+  height: 70px;
+  transition:0.5s;
 
+}
+.Navber:hover{
 }
 a {
   text-decoration: none;
@@ -17,17 +21,14 @@ a {
 }
 .NavberItems{
   padding: 11.2%;
-  border:2px solid white;
 font-weight: 1;
 margin: 1%;
 cursor: pointer;
-border-radius: 3px;
-transition: 1s;
 
 }
 .NavberItems:hover{
- transform: rotate(360deg);
- color: rgb(39, 37, 37);
+border-bottom: 2px solid white;
+
 }
 .BgImg{
   width: 100%;
@@ -137,6 +138,7 @@ margin-bottom: -1%;
   font-weight: 100;
 
 }
+
 .professionalText{
 font-size: 1.3rem;
 font-weight: 100;
@@ -156,34 +158,69 @@ width:30%;
 }
 .professionalSpan1{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 100%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan1:hover{
+  width: 100%;
 
 }
 .professionalSpan2{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 75%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan2:hover{
+  width: 70%;
+
 }
 .professionalSpan3{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 85%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan3:hover{
+  width: 80%;
+
 }
 .professionalSpan4{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 80%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan4:hover{
+  width: 80%;
+
 }
 .professionalSpan5{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 60%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan5:hover{
+  width: 55%;
+
 }
 .professionalSpan6{
   border-bottom: 2px solid rgb(253, 173, 2);
-  width: 40%;
   height: 17px;
+  width: 5%;
+  cursor: pointer;
+  transition: 1s
+}
+.professionalSpan6:hover{
+  width: 40%;
+
 }
 
 
@@ -425,7 +462,6 @@ fieldset {
   font-weight: normal;
   -webkit-transition: all 0.28s ease;
   transition: all 0.28s ease;
-      margin-left: 2%;
 
 }
 .form-group .bar {
@@ -612,12 +648,9 @@ margin-bottom:2%;
 }
 .button:hover{
   background:rgb(253, 173, 2);
-  padding:1%;
-  width:10%;
-  margin-left:45%;
   color:white;
-
 }
+
 .formSpan{
       text-align: center;
     margin-left: 42%;

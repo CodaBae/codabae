@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 
 import './App.css';
 
@@ -9,13 +8,22 @@ class MainApp extends Component {
       <div className="App">
 
         <div>
-          <img src={require('./Img/Background.JPG')} alt="logo" className="BgImg" />
+          <img src={require('./Img/Laptop.jpg')} alt="logo" className="BgImg" />
+
         </div>
-        <h1 className="BgImgText" >Hi I'M Shalom Mathew... FullStack Developer</h1>
+
+        <div>
+          <h1 className="BgImgT" >CODABAE</h1>
+
+        </div>
+
+        <h1 className="BgImgText" >Hi I'M Shalom Mathew... JavaScript Developer</h1>
         <div className="AboutDiv">
           <p className="AboutText">
           I Believe That There is more to Life than anyone can ever TELL....
-Nobody has gone through the Experience iv gone through... Experience's either Build you or Break you....  Its what made me Who I Am "ME"! 
+Nobody has gone through the Experience iv gone through... Experience's either Build you or Break you....  Its what made me Who I Am "ME"!.
+<p>I grew up in a JavaScript family and iv been living there since the past 6 months, I do Web, Mobile & Desktops development.</p>
+
 
 
 <p className="AboutText">Background Bio</p>

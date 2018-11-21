@@ -911,7 +911,10 @@ a {
   font-size: 1.2rem;
 }
 .BgImg {
-  width: 30.5rem;
+  width: 100%;
+  height: 355px;
+}.BgImg {
+  width: 100%;
   height: 355px;
 }
 .BgTextDiv {

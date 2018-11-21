@@ -20,7 +20,7 @@ class MainApp extends Component {
 
         </div>
 
-        <h1 className="BgImgText" >Hi I'M Shalom Mathew or CodaBae... A JavaScript Developer</h1>
+        <h1 className="BgImgText" >Hi I'M Shalom Mathew or CodaBae... A Life Long Learner</h1>
         <div className="AboutDiv">
           <p className="AboutText">
           I Believe That There is more to Life than anyone can ever TELL....
@@ -29,7 +29,7 @@ Nobody has gone through the Experience iv gone through... Experience's either Bu
 
 
 
-<p className="AboutText">Background Bio</p>
+<p className="AboutText">Background</p>
 
 
 Am Shalom Mathew, A 20 years old beautiful girl Am From Abia State,  Bende Local Government Area,
@@ -163,13 +163,19 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
             <div className="card">
             <div className="content">
                 <div className="front">
-                  <img src={require('./Img/waste.jpeg')} alt="logo" className="CardImg" />
+                  <img src={require('./Img/recycling.jpg')} alt="logo" className="CardImg" />
 
                 </div>
                 <div className="back">
-                <h2>                LearnFactory Nigeria was created
-                   with 2 main objectives: to Groom the 21st Century 
-                   Software Engineer and to Provide a conducive environment for technology innovation, collaboration and growth of technical startups in Nigeria.
+                <h2>      
+                So Yes! Am passionate about Reducing Environmental Pollution.
+                As an entrepreneur, I saw the problem of indiscriminate dumping of plastic bags 
+                in our environment as an opportunity of creating wealth from plastic bags that are 
+                considered waste. 
+                At 2016 I worked on a waste to wealth project, Called iRecycle.
+                   Converting waste materials like plastic bags into fashionable items, 
+such as ladies hand bags,ladies purse, et cetera.
+
                 </h2>
 
 
@@ -260,9 +266,15 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
         <div className='WorksMainDiv'>
           <h1 className='WorksHeader'>My Lastest Works</h1>
           <div className='Worksdiv'>
-            <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
-            <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
-            <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
+          <a href='https://github.com/CodaBae/marketList' class="Link">
+            <img src={require('./Img/a.jpg')} alt="logo" className="CardImg" />
+            </a>
+            <a href='https://github.com/CodaBae/-naijahacks-Reactrons-frontend' class="Link">
+            <img src={require('./Img/h.jpg')} alt="logo" className="CardImg" />
+            </a>
+            <a href='https://github.com/CodaBae/Coders-Workload' class="Link">
+            <img src={require('./Img/toda.jpeg')} alt="logo" className="CardImg" />
+            </a>
 
 
           </div>

@@ -20,7 +20,7 @@ class MainApp extends Component {
 
         </div>
 
-        <h1 className="BgImgText" >Hi I'M Shalom Mathew... JavaScript Developer</h1>
+        <h1 className="BgImgText" >Hi I'M Shalom Mathew or CodaBae... A JavaScript Developer</h1>
         <div className="AboutDiv">
           <p className="AboutText">
           I Believe That There is more to Life than anyone can ever TELL....
@@ -61,6 +61,10 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
           <div className="professionalHeaderDiv">
             <h1 className="professionalHeader">Traits & Interest</h1>
           </div>
+
+          <div className='TraitMainDIv'>
+
+
           <div className="Trait">
 
             <div className="TraitDiv" >
@@ -123,6 +127,11 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
               <h3 className="TraitText">Adventure</h3>
             </div>
           </div>
+
+
+          </div>
+
+
           <p className="professionalP">I am inlove with innovation</p>
 
         </div>
@@ -133,26 +142,38 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
             <div className="card">
               <div className="content">
                 <div className="front">
-                  <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
+                  <img src={require('./Img/kir.png')} alt="logo" className="CardImg" />
 
                 </div>
                 <div className="back">
-                  Bacasjnjasuhuahsjhjsushuhsuugggghhjjhu
-                  juisuasysygugsysyasuygdsuajsuguydddjdbk!
+                <h2> At 2015 i had just finished secondary school, so i started
+                   working for the first time at KIRF as an operation 
+                  intern...that was were i did my first humanitairn service.
+                KIR Foundation exists to transform the lives of 
+                 vulnerable children, youth, persons with disabilities, prison inmates, women
+                 and our local communities through Education, Advocacy, Capacity and Sustainable Development. 
+                  </h2>
+                <a href='www.kirfoundation.org'>Learn More</a>
+
     </div>
               </div>
 
 
             </div>
             <div className="card">
-              <div className="content">
+            <div className="content">
                 <div className="front">
-                  <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
+                  <img src={require('./Img/waste.jpeg')} alt="logo" className="CardImg" />
 
                 </div>
                 <div className="back">
-                  Bacasjnjasuhuahsjhjsushuhsuugggghhjjhu
-                  juisuasysygugsysyasuygdsuajsuguydddjdbk!
+                <h2>                LearnFactory Nigeria was created
+                   with 2 main objectives: to Groom the 21st Century 
+                   Software Engineer and to Provide a conducive environment for technology innovation, collaboration and growth of technical startups in Nigeria.
+                </h2>
+
+
+                  <a href='https://web.facebook.com/IRecycle-176511833074403/'>Learn More</a>
     </div>
 
               </div>
@@ -164,12 +185,22 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
           <div className="card1">
             <div className="content1">
               <div className="front1">
-                <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />
+              <img src={require('./Img/lf.png')} alt="logo" className="CardImg" />
 
               </div>
               <div className="back1">
-                Bacasjnjasuhuahsjhjsushuhsuugggghhjjhu
-                juisuasysygugsysyasuygdsuajsuguydddjdbk!
+              <h2>  
+               You know that moment in your life were your just standing there and your thinking of what
+               exactly to do with your life...well i was there and then  LearnFactory came... 
+                At 2018 I started a 6 months intership in 
+               LearnFactory Nigeria a
+                   Software Engineering Company that Provide a
+                    conducive environment for technology innovation, 
+                   collaboration and growth of technical startups in Nigeria.
+                </h2>
+
+
+                  <a href='http://learnfactory.com.ng/'>Learn More</a>
     </div>
 
             </div>
@@ -226,7 +257,7 @@ LIES... Its better u tell and let the roof fall... Than to lie to my face...
         </div>
 
 
-        <div>
+        <div className='WorksMainDiv'>
           <h1 className='WorksHeader'>My Lastest Works</h1>
           <div className='Worksdiv'>
             <img src={require('./Img/Background.JPG')} alt="logo" className="CardImg" />

@@ -9,12 +9,11 @@
   transition:0.5s;
 
 }
-.Navber:hover{
-}
+
 a {
   text-decoration: none;
-  width: 7%;
-  padding: 1%;
+  width: 8%;
+  padding-top: 1%;
   text-align: center;
   color: white;
   /* height: 32px; */
@@ -23,12 +22,12 @@ a {
   padding: 11.2%;
 font-weight: 1;
 margin: 1%;
+font-size:1.1rem;
 cursor: pointer;
 
 }
 .NavberItems:hover{
-border-bottom: 2px solid white;
-
+border-bottom:2px solid white; 
 }
 .BgImg{
   width: 100%;
@@ -161,69 +160,60 @@ width:30%;
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan1:hover{
   width: 100%;
 
+  transition: 1s
 }
+
 .professionalSpan2{
   border-bottom: 2px solid rgb(253, 173, 2);
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan2:hover{
   width: 70%;
 
+  transition: 1s
 }
+
 .professionalSpan3{
   border-bottom: 2px solid rgb(253, 173, 2);
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan3:hover{
   width: 80%;
 
+  transition: 1s
 }
+
 .professionalSpan4{
   border-bottom: 2px solid rgb(253, 173, 2);
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan4:hover{
   width: 80%;
 
+  transition: 1s
 }
+
 .professionalSpan5{
   border-bottom: 2px solid rgb(253, 173, 2);
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan5:hover{
   width: 55%;
 
+  transition: 1s
 }
+
 .professionalSpan6{
   border-bottom: 2px solid rgb(253, 173, 2);
   height: 17px;
   width: 5%;
   cursor: pointer;
-  transition: 1s
-}
-.professionalSpan6:hover{
   width: 40%;
 
+  transition: 1s
 }
-
-
 
 
 .ExperiencesDiv {
@@ -248,7 +238,8 @@ margin-left: 0.5%;
 
 
 .CardImg{
-  width:100%
+  width:100%;
+  height: 300px;
 }
 
 
@@ -612,13 +603,15 @@ Remove or comment-out the code block below to see how the browser will fall-back
   margin: 4%;
 }
 
-.formDiv{
+.formDiv {
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     height: 450px;
-    padding-top:1%;   
+    padding-top: 1%;
+    margin-bottom: 5%;
+    height: 465px;
 }
 .formIconDiv {
     padding: 2%;
@@ -685,4 +678,448 @@ font-size: 2rem;
 
 
 }
+h2{
+  font-size: 1.2rem;
+  margin: 0%;
+  margin-top: 5%;
+  font-weight: 200;
+  text-align: center
+}
+
+
+
+.card2 {
+    width: 30%;
+    height: 30px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    /* display: flex; */
+    margin-left: 34%;
+    /* justify-content: center; */
+}
+
+
+
+.content2 {
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.1); */
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+ 
+
+.card2:hover .content2 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 1.5s;
+}
+
+
+.front2, .back2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    line-height: 30px;
+    color: dimgrey;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    word-break: break-all;
+}
+
+.back2 {
+    background: white;
+    color: dimgray;
+    padding: 2%;
+    -webkit-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 80rem) {
+  .TraitMainDIv{
+    display: flex;
+    justify-content: center;
+    
+    }
+    .TraitMainDiv {
+      height: 627px;
+      margin: 5%;
+      padding: 1%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 85%;
+    }
+    
+    .Trait {
+      margin-top: -5%;
+      padding: 5%;
+      display: flex;
+      flex-direction:column;
+      justify-content: space-evenly;
+      -webkit-transition: 1s;
+      transition: 1s;
+    }
+   
+    .Trait1 {
+      margin-top: -5%;
+      padding: 5%;
+      display: flex;
+      flex-direction:column;
+    
+      justify-content: space-evenly;
+      -webkit-transition: 1s;
+      transition: 1s;
+    }
+    .TraitDiv {
+      margin: 3%;
+      border: 1px solid rgb(253, 173, 2);
+      border-radius: 25px;
+      width: 100%;
+      padding-left: 1%;
+      padding-right: 1%;
+      text-align: center;
+      transition: 1s;
+      cursor: pointer;
+    }
+
+   
+.BgTextDiv {
+  margin-top: -30%;
+  text-align: center;
+  margin-bottom: 30%;
+}
+    
+}
+
+@media (max-width: 70rem) {
+
+  .Navber {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: rgb(253, 173, 2);
+    color: white;
+    height: 70px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+a {
+  text-decoration: none;
+  width: 22%;
+  padding-top: 1%;
+  text-align: center;
+  color: white;
+  /* height: 32px; */
+  font-size: 1.2rem;
+}
+
+
+.IconsImg {
+  width: 9%;
+  margin-left: 2.2%;
+  margin-right: 1%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-top: 3%;
+}
+.IconsImgG {
+  width: 7%;
+  margin-left: 2.2%;
+  margin-right: 1%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.galleryDiv {
+  margin: 4%;
+  margin-left: 13%;
+}
+.formDiv {
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 20%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  height: 446px;
+  padding-top: 1%;
+  width: 94%;
+  margin-bottom: 6%;
+}
+.formIconDiv {
+  padding: 1%;
+  background: rgb(253, 173, 2);
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.IconsImg {
+  width: 6%;
+  margin-left: 2.2%;
+  margin-right: 1%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-top: 1%;
+}
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 40rem) {
+  .Navber {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(253, 173, 2);
+    color: white;
+    height: 70px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+a {
+  text-decoration: none;
+  width: 22%;
+  padding-top: 1%;
+  text-align: center;
+  color: white;
+  /* height: 32px; */
+  font-size: 1.2rem;
+}
+.BgImg {
+  width: 30.5rem;
+  height: 355px;
+}
+.BgTextDiv {
+  margin-top: -51%;
+  text-align: center;
+  margin-bottom: 50%;
+}
+
+.BgImgText {
+  font-weight: 70;
+  color: rgb(253, 173, 2);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -1%;
+  margin-left: -2%;
+}
+.AboutDiv {
+    width: 85%;
+    text-align: center;
+    padding: 2%;
+    margin-left: 7%;
+    /* word-break: break-all; */
+}
+.professionalP {
+  color: rgb(253, 173, 2);
+  float: right;
+  margin-right: 5%;
+}
+.TraitMainDIv{
+display: flex;
+justify-content: center;
+
+}
+.TraitMainDiv {
+  height: 627px;
+  margin: 5%;
+  padding: 1%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 26.5rem;
+}
+
+.Trait {
+  margin-top: -5%;
+  padding: 5%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.professionalMainDiv {
+  height: 790px;
+  margin: 5%;
+  padding: 1%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 28rem;
+}
+.Trait1 {
+  margin-top: -5%;
+  padding: 5%;
+  display: flex;
+  flex-direction:column;
+
+  justify-content: space-evenly;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.TraitDiv {
+  margin: 3%;
+  border: 1px solid rgb(253, 173, 2);
+  border-radius: 25px;
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.ExperiencesDiv {
+  height: 848px;
+  margin: 5%;
+  padding: 1%;
+  margin-top: -1%;
+  width: 29rem;
+}
+.Mcard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+.card {
+  width: 100%;
+  height: 300px;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  margin-bottom: 10%;
+}
+.card1 {
+  width: 89%;
+  height: 300px;
+  margin-left: 7%;
+  perspective: 500px;
+  margin-bottom: 10%;
+}
+.Mcard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  margin: 5%;
+  text-align: center;
+}
+.ExperiencesDiv {
+  height: 1200px;
+  margin: 5%;
+  padding: 1%;
+  margin-top: -1%;
+  width: 29rem;
+}
+.ExperiencesP {
+  float: rignt;
+  color: rgb(253, 173, 2);
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 85%;
+}
+h2 {
+  font-size: 1.2rem;
+  margin: 0%;
+  margin-top: 0%;
+  font-weight: 200;
+  text-align: center;
+}
+.professionalMainDiv {
+  height: 655px;
+  margin: 5%;
+  padding: 1%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 28rem;
+}
+.Worksdiv {
+  width: 80%;
+  display :flex;
+  height: 300px;
+  margin-left: 10%;
+  margin-bottom: 8%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+}
+.Worksdiv:hover {
+  width: 28.5rem;
+  height: 400px;
+}
+.WorksHeader {
+  font-weight: 100;
+  color: rgb(253, 173, 2);
+  text-align: center;
+  margin-left: 3%;
+}
+.WorksMainDiv{
+ height: 1000px;
+}
+
+.footerDiv {
+  background: rgb(253, 173, 2);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+}
+
+.IconsImg {
+  width: 9%;
+  margin-left: 2.2%;
+  margin-right: 1%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-top: 3%;
+}
+.IconsImgG {
+  width: 9%;
+  margin-left: 2.2%;
+  margin-right: 1%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.galleryDiv {
+  margin: 4%;
+  margin-left: 13%;
+}
+
+.formDiv {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 20%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  height: 403px;
+  padding-top: 1%;
+  width: 90%;
+  margin-bottom: 6%;
+}
+
+}
+
+
 

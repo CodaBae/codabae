@@ -52,10 +52,24 @@ class Connect extends Component {
 
  
  
-   
+          <div className="card2">
+            <div className="content2">
+              <div className="front2">
      <span className="formSpanF">Call Me</span>
 
-  <span className="formSpanB">+2348093546694</span>
+              </div>
+              <div className="back2">
+              <span className="formSpanB">+2348093546694</span>
+
+    </div>
+
+            </div>
+
+
+
+          </div>
+   
+
 
 
 </div>
